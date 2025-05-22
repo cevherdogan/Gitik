@@ -1,0 +1,46 @@
+# Gitik One-Liner Library
+# Organized by category with clear, safe commands.
+
+- category: "Getting Started"
+  items:
+    - command: git init
+      description: Initialize a new Git repository in the current directory.
+    - command: git clone <repository_url>
+      description: Clone a repository from a remote URL.
+
+- category: "Staging and Committing"
+  items:
+    - command: git add .
+      description: Stage all changes in the current directory for the next commit.
+    - command: git commit -m "Your commit message"
+      description: Commit staged changes with a descriptive message.
+
+- category: "Branching"
+  items:
+    - command: git branch <branch_name>
+      description: Create a new branch named <branch_name>.
+    - command: git checkout <branch_name>
+      description: Switch to the branch named <branch_name>.
+
+- category: "Merging"
+  items:
+    - command: git merge <branch_name>
+      description: Merge the specified branch into the current branch.
+
+- category: "Viewing History"
+  items:
+    - command: git log --oneline
+      description: View the commit history in a compact format.
+    - command: git status
+      description: Show the working directory status.
+
+- category: "Remote Repositories"
+  items:
+    - command: git remote add origin <repository_url>
+      description: Add a new remote repository named 'origin'.
+    - command: git push -u origin <branch_name>
+      description: Push the current branch to the 'origin' remote repository.
+
+# Note: Replace placeholders like <repository_url> and <branch_name> with your actual values.
+
+

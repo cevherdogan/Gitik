@@ -1,0 +1,52 @@
+# GitHub Actions Use Case Library
+# Realistic, testable scenarios with minimal YAML flows
+
+- use_case: Deploy static website to GitHub Pages
+  trigger: On push to `main`
+  action_goal: Build and deploy static site
+  yaml_snippet: |
+    name: Deploy to GitHub Pages
+    on:
+      push:
+        branches: [main]
+    jobs:
+      build-and-deploy:
+        runs-on: ubuntu-latest
+        steps:
+          - uses: actions/checkout@v3
+          - run: echo 'Build your static site here'
+          - uses: peaceiris/actions-gh-pages@v3
+            with:
+              publish_dir: ./public
+
+- use_case: Run tests on pull request
+  trigger: On pull_request
+  action_goal: Ensure all tests pass before merging
+  yaml_snippet: |
+    name: Run Tests
+    on: pull_request
+    jobs:
+      test:
+        runs-on: ubuntu-latest
+        steps:
+          - uses: actions/checkout@v3
+          - run: npm install
+          - run: npm test
+
+- use_case: Auto-label issues
+  trigger: On issue opened
+  action_goal: Apply labels based on keywords
+  yaml_snippet: |
+    name: Auto Label Issues
+    on:
+      issues:
+        types: [opened]
+    jobs:
+      label:
+        runs-on: ubuntu-latest
+        steps:
+          - uses: actions/labeler@v4
+
+# These are simplified versions; encourage PRs for full versions.
+
+

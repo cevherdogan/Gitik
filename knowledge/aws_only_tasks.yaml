@@ -1,0 +1,29 @@
+# Gitik AWS-Specific Git Tasks
+# Focused on Git + AWS CLI safe workflows
+
+- service: S3
+  items:
+    - command: aws s3 cp my_file.txt s3://my-bucket/
+      description: Upload a local file to an S3 bucket.
+    - command: aws s3 ls s3://my-bucket/
+      description: List files in an S3 bucket.
+
+- service: CodeCommit
+  items:
+    - command: aws codecommit list-repositories
+      description: List all CodeCommit repositories in your AWS account.
+    - command: git clone https://git-codecommit.<region>.amazonaws.com/v1/repos/<repo-name>
+      description: Clone a CodeCommit repository using HTTPS.
+
+- service: IAM / Credentials
+  items:
+    - command: aws configure
+      description: Set up or update your AWS CLI credentials and default region.
+
+- service: Lambda (via GitHub)
+  items:
+    - command: aws lambda update-function-code --function-name my-func --zip-file fileb://code.zip
+      description: Update Lambda function code using a zipped GitHub repo.
+
+# Replace <region> and <repo-name> with your actual values.
+
