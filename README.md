@@ -25,6 +25,8 @@ Gitik/
 └── LICENSE
 ```
 
+📓 Admin Workflow Log → [docs/admin-branch-pr-walkthrough.md](docs/admin-branch-pr-walkthrough.md)
+
 ---
 
 ## 🔍 How It Works
@@ -65,7 +67,6 @@ We welcome contributions in the form of:
 - Your Git success/fail stories
 
 ## Gitik – GitHub in One-Liners
-
 See `docs/style-guide.md` for contribution guidelines.
 All commands live inside `/knowledge`.
 
