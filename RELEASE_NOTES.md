@@ -12,6 +12,5 @@
 - `one_liner_library.yaml`
 - `aws_only_tasks.yaml`
 - `github_actions_cases.yaml`
-- `conversation_starters.yaml`
 
 

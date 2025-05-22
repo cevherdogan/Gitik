@@ -15,7 +15,6 @@ Gitik makes Git friendly, fast, and fear-free.
 ```bash
 Gitik/
 ├── knowledge/
-│   ├── conversation_starters.yaml
 │   ├── one_liner_library.yaml
 │   ├── aws_only_tasks.yaml
 │   └── github_actions_cases.yaml
@@ -32,7 +31,6 @@ Gitik/
 
 Gitik is powered by logic engines and curated reference sets including:
 
-- ✅ `conversation_starters.yaml` — Real-world Git prompts from everyday developers
 - ✅ `one_liner_library.yaml` — Categorized GitHub, Git, Bash, Python commands
 - ✅ `aws_only_tasks.yaml` — Git and GitHub tasks scoped to AWS workflows
 - ✅ `github_actions_cases.yaml` — Use-case driven GitHub Actions examples
