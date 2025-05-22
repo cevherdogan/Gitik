@@ -25,7 +25,11 @@ Gitik/
 └── LICENSE
 ```
 
-📓 Admin Workflow Log → [docs/admin-branch-pr-walkthrough.md](docs/admin-branch-pr-walkthrough.md)
+---
+
+## Best Practices
+
+- 📓 Contribution & Branching Guide → [docs/git-workflow-guideline.md](docs/git-workflow-guideline.md)
 
 ---
 
