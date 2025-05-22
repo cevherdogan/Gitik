@@ -25,7 +25,11 @@ Gitik/
 └── LICENSE
 ```
 
-📓 Contribution & Branching Guide → [docs/git-workflow-guideline.md](docs/git-workflow-guideline.md)
+---
+
+## Best Practices
+
+- 📓 Contribution & Branching Guide → [docs/git-workflow-guideline.md](docs/git-workflow-guideline.md)
 
 ---
 
