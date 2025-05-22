@@ -1,5 +1,14 @@
 # Gitik Release Notes
 
+## v0.1.3 – Contributor Workflow & Admin Governance Release
+
+This release brings formal documentation and workflow definition for Gitik:
+
+- 📓 `git-workflow-guideline.md`: Complete contribution + branching guide
+- 🔐 `admin-main-branch-governance.md`: Admin PR, merge, and tagging protocols
+- 🖼️ Git flow diagram added for visual onboarding
+- ✅ `README.md` updated with canonical doc links
+
 ## v0.1.0 – Foundation Release
 
 🚀 Highlights:

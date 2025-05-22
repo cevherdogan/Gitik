@@ -1,6 +1,8 @@
-# Changelog
-
-All notable changes to this project will be documented in this file.
+## [v0.1.3] – Git Flow, Governance, and Contributor Docs
+- Added `docs/git-workflow-guideline.md` as canonical contribution guide
+- Added `docs/admin-main-branch-governance.md` for maintainers
+- Included Git flow diagram `web/images/git-branching-flow-v013.png`
+- Updated `README.md` with contributor doc reference
 
 ## [Unreleased]
 - First YAML libraries added: one-liners, AWS tasks, GitHub Actions, conversation starters

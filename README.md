@@ -29,7 +29,9 @@ Gitik/
 
 ## Best Practices
 
-- 📓 Contribution & Branching Guide → [docs/git-workflow-guideline.md](docs/git-workflow-guideline.md)
+- 📓 Contribution & Branching Guide → [docs/git-workflow-guideline.md](docs/git-workflow-guideline.md)  
+- 🔐 Admin Governance Guide → [docs/admin-main-branch-governance.md](docs/admin-main-branch-governance.md)
+
 
 ---
 
