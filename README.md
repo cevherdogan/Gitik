@@ -1,5 +1,7 @@
 # Gitik – GitHub in One-Liners, Evolved Together
 
+<img src="web/images/GitikButNeverBitik.png" alt="Gitik – Never Bitik" width="400"/>
+
 Gitik is a command assistant and knowledge engine that turns your GitHub tasks into concise, safe, and explainable one-liners. Built on curated libraries and community input, it helps beginners and pros alike navigate Git, GitHub, and DevOps workflows with confidence.
 
 ## 📖 What does *Gitik* mean?
@@ -96,4 +98,15 @@ We're growing Gitik into a knowledge vessel that blends community and utility—
 
 Looking forward to your ideas, energy, and feedback.
 
+## 📄 License
+
+This project is licensed under the [MIT License](LICENSE).  
+For author’s notes and commentary, see [Medium – @cevherdogan](https://medium.com/@cevherdogan)
+
+## 🖼️ Visual Identity
+
+![Gitik – Never Bitik](web/images/GitikButNeverBitik.png)
+
+Gitik represents more than CLI productivity.  
+It’s about clarity, calm, and contributing at your own pace—**without ever being Bitik.**
 
